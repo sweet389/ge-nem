@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block title %}Início — ENEM{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div>
+        <p class="eyebrow">SEU DESEMPENHO</p>
+        <h1>Continue de onde parou.</h1>
+        <p class="muted">Acompanhe sua evolução e gere um novo simulado quando quiser.</p>
+    </div>
+    <a class="button button-primary" href="{{ url_for('gerar_simulado') }}">
+        Gerar simulado <span>→</span>
+    </a>
+</section>
+
+<section class="countdown-card">
+    <div>
+        <span class="label">ENEM {{ enem_year }}</span>
+        <strong>{{ days_to_enem }}</strong>
+        <span class="muted">dias para a prova</span>
+    </div>
+    <div class="countdown-date">Provas: <strong>{{ enem_dates_label }}</strong></div>
+</section>
+
+<section class="section">
+    <div class="section-heading">
+        <div>
+            <p class="eyebrow">VISÃO GERAL</p>
+            <h2>Seu desempenho</h2>
+        </div>
+        <span class="muted small">Último simulado: {{ last_attempt|default('—') }}</span>
+    </div>
+
+    <div class="stats-grid">
+        {% for item in subjects %}
+        <article class="stat-card">
+            <div class="stat-top">
+                <span>{{ item.name }}</span>
+                <span class="subject-dot"></span>
+            </div>
+            {% if item.accuracy is none %}
+                <div class="stat-value">—</div>
+                <div class="change neutral">Ainda sem simulados</div>
+                <div class="progress"></div>
+            {% else %}
+                <div class="stat-value">{{ item.accuracy }}%</div>
+                {% if item.change is none %}
+                    <div class="change neutral">Primeira tentativa</div>
+                {% elif item.change > 0 %}
+                    <div class="change positive">▲ +{{ item.change }}% desde a última tentativa</div>
+                {% elif item.change < 0 %}
+                    <div class="change negative">▼ {{ item.change }}% desde a última tentativa</div>
+                {% else %}
+                    <div class="change neutral">= Sem alteração</div>
+                {% endif %}
+                <div class="stat-split">
+                    <span class="ok">Acertos <b>{{ item.accuracy }}%</b></span>
+                    <span class="err">Erros <b>{{ item.errors }}%</b></span>
+                </div>
+                <div class="progress dual"><span style="width: {{ item.accuracy }}%"></span><span class="err" style="width: {{ item.errors }}%"></span></div>
+            {% endif %}
+        </article>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="quick-grid">
+    <a class="quick-card" href="{{ redacao_url|default('#') }}" target="_blank" rel="noopener">
+        <div class="quick-icon">✎</div>
+        <div>
+            <h3>Corrigir redação</h3>
+            <p>Abre a plataforma externa de correção em outra aba.</p>
+        </div>
+        <span class="arrow">↗</span>
+    </a>
+
+    <a class="quick-card" href="{{ url_for('gerar_simulado') }}">
+        <div class="quick-icon">✓</div>
+        <div>
+            <h3>Praticar agora</h3>
+            <p>Monte um simulado baseado no seu desempenho.</p>
+        </div>
+        <span class="arrow">→</span>
+    </a>
+</section>
+{% endblock %}

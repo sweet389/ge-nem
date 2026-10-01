@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Resultado — ENEM{% endblock %}
+
+{% block content %}
+<section class="result-header">
+    <p class="eyebrow">SIMULADO FINALIZADO</p>
+    <h1>Seu resultado.</h1>
+    <p class="muted">Veja seu desempenho e onde concentrar seus próximos estudos.</p>
+</section>
+
+<section class="result-summary">
+    <div>
+        <span class="label">ACERTOS</span>
+        <strong>{{ resultado.acertos }}</strong>
+        <span class="muted">de {{ resultado.total }}</span>
+    </div>
+    <div>
+        <span class="label">ERROS</span>
+        <strong>{{ resultado.erros }}</strong>
+    </div>
+    <div>
+        <span class="label">APROVEITAMENTO</span>
+        <strong>{{ resultado.percentual }}%</strong>
+    </div>
+</section>
+
+<section class="section">
+    <div class="section-heading">
+        <div>
+            <p class="eyebrow">POR ÁREA</p>
+            <h2>Desempenho</h2>
+        </div>
+    </div>
+    <div class="stats-grid">
+        {% for item in resultado.materias %}
+        <article class="stat-card">
+            <div class="stat-top"><span>{{ item.nome }}</span></div>
+            <div class="stat-value">{{ item.percentual }}%</div>
+            <div class="progress"><span style="width: {{ item.percentual }}%"></span></div>
+            <p class="small muted">{{ item.acertos }}/{{ item.total }} acertos · {{ item.erros }} erros</p>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+
+<div class="form-actions">
+    <a class="button button-secondary" href="{{ url_for('dashboard') }}">Voltar ao início</a>
+    <a class="button button-primary" href="{{ url_for('gerar_simulado') }}">Novo simulado <span>→</span></a>
+</div>
+{% endblock %}

@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+{% block title %}Gerar simulado — ENEM{% endblock %}
+
+{% block content %}
+<section class="page-header">
+    <a class="back" href="{{ url_for('dashboard') }}">← Voltar</a>
+    <p class="eyebrow">NOVO SIMULADO</p>
+    <h1>Monte sua prova.</h1>
+    <p class="muted">Escolha o ano, o dia e como as questões serão distribuídas.</p>
+</section>
+
+<form class="generator-form" method="POST" id="generator-form" action="{{ url_for('gerar_simulado') }}">
+    {# <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"> (se usar Flask-WTF) #}
+    <section class="form-section">
+        <div class="form-heading">
+            <span class="step">01</span>
+            <div>
+                <h2>Edição do ENEM</h2>
+                <p>Escolha de qual edição as questões serão utilizadas.</p>
+            </div>
+        </div>
+        <select name="ano" class="select">
+            {% for year in range(2023, 2008, -1) %}
+                <option value="{{ year }}">{{ year }}</option>
+            {% endfor %}
+        </select>
+    </section>
+
+    <section class="form-section">
+        <div class="form-heading">
+            <span class="step">02</span>
+            <div>
+                <h2>Dia da prova</h2>
+                <p>O ENEM é dividido em dois dias com áreas diferentes.</p>
+            </div>
+        </div>
+
+        <div class="choice-grid two">
+            <label class="choice">
+                <input type="radio" name="dia" value="1" checked>
+                <span class="choice-body">
+                    <strong>1º dia</strong>
+                    <small>Linguagens + Ciências Humanas + Redação</small>
+                </span>
+                <span class="radio"></span>
+            </label>
+
+            <label class="choice">
+                <input type="radio" name="dia" value="2">
+                <span class="choice-body">
+                    <strong>2º dia</strong>
+                    <small>Ciências da Natureza + Matemática</small>
+                </span>
+                <span class="radio"></span>
+            </label>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <div class="form-heading">
+            <span class="step">03</span>
+            <div>
+                <h2>Distribuição</h2>
+                <p>Defina como o sistema deve escolher as questões.</p>
+            </div>
+        </div>
+
+        <div class="choice-grid two">
+            <label class="choice">
+                <input type="radio" name="modo" value="estatisticas" checked data-mode="stats">
+                <span class="choice-body">
+                    <strong>Baseado nas minhas estatísticas</strong>
+                    <small>Prioriza assuntos onde você apresenta mais dificuldade.</small>
+                </span>
+                <span class="radio"></span>
+            </label>
+
+            <label class="choice">
+                <input type="radio" name="modo" value="limite" data-mode="limit">
+                <span class="choice-body">
+                    <strong>Definir quantidade</strong>
+                    <small>Você escolhe quantas questões haverá em cada matéria.</small>
+                </span>
+                <span class="radio"></span>
+            </label>
+        </div>
+    </section>
+
+    <section id="distribution-panel" class="form-section distribution-panel">
+        <div class="form-heading">
+            <span class="step">04</span>
+            <div>
+                <h2>Quantidade de questões</h2>
+                <p id="distribution-help">Defina o máximo de questões que o sistema pode selecionar por matéria.</p>
+            </div>
+        </div>
+
+        <div class="subject-inputs" data-day="1">
+            <label><span>Linguagens <small class="unit"></small></span><input type="number" name="linguagens" min="0" max="45" value="10"></label>
+            <label><span>Ciências Humanas <small class="unit"></small></span><input type="number" name="humanas" min="0" max="45" value="10"></label>
+        </div>
+
+        <div class="subject-inputs" data-day="2" hidden>
+            <label><span>Ciências da Natureza <small class="unit"></small></span><input type="number" name="natureza" min="0" max="45" value="15"></label>
+            <label><span>Matemática <small class="unit"></small></span><input type="number" name="matematica" min="0" max="45" value="15"></label>
+        </div>
+
+        <div class="notice" data-day="1">
+            <span>✎</span>
+            <p>A redação do 1º dia não é gerada aqui: use o botão <strong>Corrigir redação</strong> no início para enviar seu texto à plataforma externa.</p>
+        </div>
+
+        <div class="total-line">
+            <span id="total-label">Total</span>
+            <strong><span id="total-questions">0</span> questões</strong>
+        </div>
+
+        <div class="form-note">
+            <span>i</span>
+            <p>No modo estatísticas, o sistema prioriza seus pontos fracos e respeita o máximo definido por matéria. No modo quantidade, cada matéria terá exatamente o número escolhido.</p>
+        </div>
+    </section>
+
+    <div class="form-actions">
+        <a class="button button-secondary" href="{{ url_for('dashboard') }}">Cancelar</a>
+        <button class="button button-primary" type="submit" id="generate-btn">Gerar simulado <span>→</span></button>
+    </div>
+</form>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    setupGeneratorForm();
+</script>
+{% endblock %}

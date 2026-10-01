@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block title %}Simulado — ENEM{% endblock %}
+
+{% block content %}
+<form method="POST" action="{{ url_for('finalizar_simulado') }}" id="exam-form">
+    {# <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"> (se usar Flask-WTF) #}
+    <input type="hidden" name="simulado_id" value="{{ prova.id }}">
+    <input type="hidden" name="tempo_segundos" id="elapsed" value="0">
+    <div class="exam-header">
+        <div>
+            <span class="eyebrow">{{ prova.ano|default('ENEM') }} · {{ prova.dia|default('1º dia') }}</span>
+            <h1>{{ prova.titulo|default('Simulado ENEM') }}</h1>
+        </div>
+        <div class="exam-progress">
+            <span><span id="timer" title="Tempo decorrido">00:00</span> · <span id="question-counter">1 / {{ prova.questoes|length }}</span></span>
+            <div class="mini-progress"><span id="question-progress"></span></div>
+        </div>
+    </div>
+
+    <div class="exam-layout">
+        <aside class="question-nav">
+            <p class="eyebrow">QUESTÕES</p>
+            <div class="question-grid">
+                {% for q in prova.questoes %}
+                    <button type="button" class="question-number {% if loop.first %}active{% endif %}" data-question="{{ loop.index0 }}">{{ loop.index }}</button>
+                {% endfor %}
+            </div>
+        </aside>
+
+        <main class="question-area">
+            {% for q in prova.questoes %}
+            <article class="question-card {% if not loop.first %}hidden{% endif %}" data-question-panel="{{ loop.index0 }}">
+                <div class="question-meta">
+                    <span>Questão {{ loop.index }}</span>
+                    <span>{{ q.materia|default('Área') }}</span>
+                </div>
+
+                {% if q.imagem %}
+                    <img class="question-image" src="{{ q.imagem }}" alt="{{ q.imagem_alt|default('Imagem da questão') }}">
+                {% endif %}
+
+                <div class="question-text">
+                    {{ q.enunciado|safe }}
+                </div>
+
+                <div class="alternatives">
+                    {% for alt in q.alternativas %}
+                    <label class="alternative">
+                        <input type="radio" name="questao_{{ q.id }}" value="{{ alt.letra }}">
+                        <span class="letter">{{ alt.letra }}</span>
+                        <span>{{ alt.texto }}{% if alt.imagem %}<img class="alt-image" src="{{ alt.imagem }}" alt="Alternativa {{ alt.letra }}">{% endif %}</span>
+                    </label>
+                    {% endfor %}
+                </div>
+            </article>
+            {% endfor %}
+
+            {% if prova.redacao %}
+            <p class="small muted redacao-hint">Redação: escreva e corrija na <a href="{{ redacao_url|default('#') }}" target="_blank" rel="noopener">plataforma externa ↗</a>.</p>
+            {% endif %}
+            <div class="question-actions">
+                <button type="button" class="button button-secondary" id="previous-question" disabled>Anterior</button>
+                <button type="button" class="button button-primary" id="next-question">Próxima <span>→</span></button>
+                <button type="submit" class="button button-primary hidden" id="finish-exam">Finalizar simulado</button>
+            </div>
+        </main>
+    </div>
+</form>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    setupExam();
+</script>
+{% endblock %}
