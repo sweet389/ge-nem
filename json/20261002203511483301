@@ -1,0 +1,871 @@
+{
+  "0": {
+    "title": "Questão 59 - ENEM 2017",
+    "index": 59,
+    "discipline": "ciencias-humanas",
+    "language": null,
+    "year": 2017,
+    "context": "![](https://enem.dev/2017/questions/59/6948e245-25f2-4e37-80be-48b113665300.png)\n\n![](https://enem.dev/2017/questions/59/0d9be71d-f646-45e8-b381-585fb13d1613.png)",
+    "files": [
+      "https://enem.dev/2017/questions/59/6948e245-25f2-4e37-80be-48b113665300.png",
+      "https://enem.dev/2017/questions/59/0d9be71d-f646-45e8-b381-585fb13d1613.png"
+    ],
+    "correctAlternative": "E",
+    "alternativesIntroduction": "As temperaturas médias mensais e as taxas de pluviosidade expressas no climograma apresentam o clima típico da seguinte cidade:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Cidade do Cabo (África do Sul), marcado pela reduzida amplitude térmica anual.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Sydney (Austrália), caracterizado por precipitações abundantes no decorrer do ano.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Mumbai (índia), definido pelas chuvas monçônicas torrenciais.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Barcelona (Espanha), afetado por massas de ar seco.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Moscou (Rússia), influenciado pela localização geográfica em alta latitude.",
+        "file": null,
+        "isCorrect": true
+      }
+    ]
+  },
+  "1": {
+    "title": "Questão 49 - ENEM 2017",
+    "index": 49,
+    "discipline": "ciencias-humanas",
+    "language": null,
+    "year": 2017,
+    "context": "Fala-se muito nos dias de hoje em direitos do homem. Pois bem: foi no século XVIII — em 1789, precisamente — que uma Assembleia Constituinte produziu e proclamou em Paris a Declaração dos Direitos do Homem e do Cidadão. Essa Declaração se impôs como necessária para um grupo de revolucionários, por ter sido preparada por uma mudança no plano das ideias e das mentalidades: o lluminismo.\n\nFORTES, L. R. S. O lluminismo e os reis filósofos. São Paulo: Brasiliense, 1981 (adaptado).",
+    "files": [],
+    "correctAlternative": "E",
+    "alternativesIntroduction": "Correlacionando temporalidades históricas, o texto apresenta uma concepção de pensamento que tem como uma de suas bases a",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Modernização da educação escolar.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Atualização da disciplina moral cristã.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Divulgação de costumes aristocráticos.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Socialização do conhecimento científico.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Universalização do princípio da igualdade civil.",
+        "file": null,
+        "isCorrect": true
+      }
+    ]
+  },
+  "2": {
+    "title": "Questão 130 - ENEM 2017",
+    "index": 130,
+    "discipline": "ciencias-humanas",
+    "language": null,
+    "year": 2017,
+    "context": "A cromatografia em papel é um método de separação que se baseia na migração diferencial dos componentes de uma mistura entre duas fases imiscíveis. Os componentes da amostra são separados entre a fase estacionária e a fase móvel em movimento no papel. A fase estacionária consiste de celulose praticamente pura, que pode absorver até 22% de água. É a água absorvida que funciona como fase estacionária líquida e que interage com a fase móvel, também líquida (partição líquido-líquido). Os componentes capazes de formar interações intermoleculares mais fortes com a fase estacionária migram mais lentamente.\n\nUma mistura de hexano com 5% (v/v) de acetona foi utilizada como fase móvel na separação dos componentes de um extrato vegetal obtido a partir de pimentões. Considere que esse extrato contém as substâncias representadas.\n\nRIBEIRO, N.M.; NUNES, C. R. Análise de pigmentos de pimentões por cromatografia em papel, **Química Nova na Escola**, n.29, ago. 2008 (adaptado).\n\n![](https://enem.dev/2017/questions/130/5e013833-b780-40ce-ae64-9f1dd61cb6fa.png)",
+    "files": [
+      "https://enem.dev/2017/questions/130/5e013833-b780-40ce-ae64-9f1dd61cb6fa.png"
+    ],
+    "correctAlternative": "D",
+    "alternativesIntroduction": "A substância presente na mistura que migra mais lentamente é o(a)",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Licopeno.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Α-caroteno.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Γ-caroteno.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Capsorubina.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "Α-criptoxantina.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  },
+  "3": {
+    "title": "Questão 84 - ENEM 2017",
+    "index": 84,
+    "discipline": "ciencias-humanas",
+    "language": null,
+    "year": 2017,
+    "context": "O conceito de democracia, no pensamento de Habermas, é construído a partir de uma dimensão procedimental, calcada no discurso e na deliberação. A legitimidade democrática exige que o processo de tomada de decisões políticas ocorra a partir de uma ampla discussão pública, para somente então decidir. Assim, o caráter deliberativo corresponde a um processo coletivo de ponderação e análise, permeado pelo discurso, que antecede a decisão.\n\nVITALE, D. Jürgen Habermas, modernidade e democracia deliberativa. **Cadernos do CRH (UFBA)**, v. 19, 2006 (adaptado).",
+    "files": [],
+    "correctAlternative": "B",
+    "alternativesIntroduction": "O conceito de democracia proposto por Jürgen Habermas pode favorecer processos de inclusão social. De acordo com o texto, é uma condição para que isso aconteça o(a)",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Participação direta periódica do cidadão.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Debate livre e racional entre cidadãos e Estado.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "Interlocução entre os poderes governamentais.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Eleição de lideranças políticas com mandatos temporários.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Controle do poder político por cidadãos mais esclarecidos.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  },
+  "4": {
+    "title": "Questão 72 - ENEM 2017",
+    "index": 72,
+    "discipline": "ciencias-humanas",
+    "language": null,
+    "year": 2017,
+    "context": "Trata-se da perda progressiva da produtividade de biomas inteiros, afetando parcelas muito expressivas dos domínios subúmidos e semiáridos em todas as regiões quentes do mundo. É nessas áreas, ecologicamente transicionais, que pressão sobre a biomassa se faz sentir com muita força, devido à retirada da cobertura florestal, ao superpastoreio e às atividades mineradoras não controladas, desencadeando um quadro agudo de degradação ambiental, refletido pela incapacidade de suporte para o desenvolvimento de espécies vegetais, seja uma floresta natural ou plantações agrícolas.\n\nCONTI, J. B. A geografia física e as relações sociedade-natureza no mundo tropical, In: CARLOS, A. F. A. (Org.). **Novos caminhos da geografia**. São Paulo:",
+    "files": [],
+    "correctAlternative": "E",
+    "alternativesIntroduction": "O texto enfatiza uma consequência da relação conflituosa entre a sociedade humana e o ambiente, que diz respeito",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Inversão térmica.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Poluição atmosférica.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Eutrofização da água.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Contaminação dos solos.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Desertificação de ecossistemas.",
+        "file": null,
+        "isCorrect": true
+      }
+    ]
+  },
+  "5": {
+    "title": "Questão 141 - ENEM 2017",
+    "index": 141,
+    "discipline": "ciencias-humanas",
+    "language": null,
+    "year": 2017,
+    "context": "Em uma cantina, o sucesso de venda no verão são sucos preparados à base de polpa de frutas. Um dos sucos mais vendidos é o de morango com acerola, que é preparado com 2/3 de polpa de morango e 1/3 de polpa de acerola.\n\nPara o comerciante, as polpas são vendidas em embalagens de igual volume. Atualmente, a embalagem da polpa de morango custa R$ 18,00 e a de acerola, R$ 14,70. Porém, está prevista uma alta no preço da embalagem da polpa de acerola no próximo mês, passando a custar R$ 15,30.\n\nPara não aumentar o preço do suco, o comerciante negociou com o fornecedor uma redução no preço da embalagem da polpa de morango.",
+    "files": [],
+    "correctAlternative": "E",
+    "alternativesIntroduction": "A redução, em real, no preço da embalagem da polpa de morango deverá ser de",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "1,20.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "0,90.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "0,60.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "0,40.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "0,30",
+        "file": null,
+        "isCorrect": true
+      }
+    ]
+  },
+  "6": {
+    "title": "Questão 46 - ENEM 2017",
+    "index": 46,
+    "discipline": "ciencias-humanas",
+    "language": null,
+    "year": 2017,
+    "context": "No império africano do Mali, no século XIV, Tombuctu foi centro de um comércio internacional onde tudo era negociado — sal, escravos, marfim etc. Havia também um grande comércio de livros de história, medicina, astronomia e matemática, além de grande concentração de estudantes. A importância cultural de Tombuctu pode ser percebida por meio de um velho provérbio: “O sal vem do norte, o ouro vem do sul, mas as palavras de Deus e os tesouros da sabedoria vêm de Tombuctu”.\n\nASSUMPÇÃO, J. E. **África: uma história a ser reescrita**. In: MACEDO, J. R. (Org.). Desvendando a história da África. Porto Alegre: UFRGS, 2008 (adaptado).",
+    "files": [],
+    "correctAlternative": "C",
+    "alternativesIntroduction": "Uma explicação para o dinamismo dessa cidade e sua importância histórica no período mencionado era o(a)",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Isolamento geográfico do Saara ocidental.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Exploração intensiva de recursos naturais.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Posição relativa nas redes de circulação.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "Tráfico transatlântico de mão de obra servil.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Competição econômica dos reinos da região.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  },
+  "7": {
+    "title": "Questão 47 - ENEM 2017",
+    "index": 47,
+    "discipline": "ciencias-humanas",
+    "language": null,
+    "year": 2017,
+    "context": "Após a Declaração Universal dos Direitos Humanos pela ONU, em 1948, a Unesco publicou estudos de cientistas de todo o mundo que desqualificaram as doutrinas racistas e demonstraram a unidade do gênero humano. Desde então, a maioria dos próprios cientistas europeus passou a reconhecer o caráter discriminatório da pretensa superioridade racial do homem branco e a condenar as aberrações cometidas em seu nome.\n\nSILVEIRA, R. Os selvagens e a massa: papel do racismo científico na montagem da hegemonia ocidental. Afro-Ásia, n. 23, 1999 (adaptado).",
+    "files": [],
+    "correctAlternative": "D",
+    "alternativesIntroduction": "A posição assumida pela Unesco, a partir de 1948, foi motivada por acontecimentos então recentes, dentre os quais se destacava o(a)",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Ataque feito pelos japoneses à base militar americana de Pearl Harbor.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Desencadeamento da Guerra Fria e de novas rivalidades entre nações.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Morte de milhões de soldados nos combates da Segunda Guerra Mundial.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Execução de judeus e eslavos presos em guetos e campos de concentração nazistas.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "Lançamento de bombas atômicas em Hiroshima e Nagasaki pelas forças norte-americanas.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  },
+  "8": {
+    "title": "Questão 63 - ENEM 2017",
+    "index": 63,
+    "discipline": "ciencias-humanas",
+    "language": null,
+    "year": 2017,
+    "context": "E venham, então, os alegres incendiários de dedos carbonizados! Vamos! Ateiem fogo às estantes das bibliotecas! Desviem o curso dos canais, para inundar os museus! Empunhem as picaretas, os machados, os martelos e deitem abaixo sem piedade as cidades veneradas!\n\nMARINETTI, F.T. **Manifesto futurista.** Disponível em : www.sibila.com.br. Acesso em: 2 Ago.2012(adaptado).",
+    "files": [],
+    "correctAlternative": "C",
+    "alternativesIntroduction": "Que princípio marcante do Futurismo e comum a várias correntes artísticas e culturais das primeiras três décadas do século XX está destacado no texto?",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Tradição é uma força incontornável.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "A arte é expressão da memória coletiva.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "A modernidade é a superação decisiva da história.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "A realidade cultural é determinada economicamente.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "A memória é um elemento crucial da identidade cultural.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  },
+  "9": {
+    "title": "Questão 89 - ENEM 2017",
+    "index": 89,
+    "discipline": "ciencias-humanas",
+    "language": null,
+    "year": 2017,
+    "context": "O comércio soube extrair um bom proveito da interatividade própria do meio tecnológico. A possibilidade de se obter um alto desenho do perfil de interesses do usuário, que deverá levar às últimas consequências o princípio da oferta como isca para o desejo consumista, foi o principal deles.\n\nSANTAELLA, L. **Culturas e artes do pós-humano**: da cultura das mídias à cibercultura. São Paulo: Paulus, 2003 (adaptado).",
+    "files": [],
+    "correctAlternative": "D",
+    "alternativesIntroduction": "Do ponto de vista comercial, o avanço das novas tecnologias, indicado no texto, está associado à",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Atuação dos consumidores como fiscalizadores da produção.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Exigência de consumidores conscientes de seus direitos.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Relação direta entre fabricantes e consumidores.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Individualização das mensagens publicitárias.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "Manutenção das preferências de consumo.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  },
+  "10": {
+    "title": "Questão 40 - ENEM 2017",
+    "index": 40,
+    "discipline": "linguagens",
+    "language": null,
+    "year": 2017,
+    "context": "A lavadeira começou a viver como uma serviçal que impõe respeito e não mais como escrava. Mas essa regalia súbita foi efêmera. Meus irmãos, nos frequentes deslizes que adulteravam este novo relacionamento, eram dardejados pelo olhar severo de Emilie; eles nunca suportaram de bom grado que uma índia passasse a comer na mesa da sala, usando os mesmos talheres e pratos, e comprimindo com os lábios o mesmo cristal dos copos e a mesma porcelana das xícaras de café. Uma espécie de asco e repulsa tingia-lhes o rosto, já não comiam com a mesma saciedade e recusavam-se a elogiar os pastéis de picadinho de carneiro, os folheados de nata e tâmara, e o arroz com amêndoas, dourado, exalando um cheiro de cebola tostada. Aquela mulher, sentada e muda, com o rosto rastreado de rugas, era capaz de tirar o sabor e o odor dos alimentos e de suprimir a voz e o gesto como se o seu silêncio ou a sua presença que era só silêncio impedisse o outro de viver.\n\nHATOUM, M. **Relato de um certo Oriente****.** São Paulo: Cia. das Letras, 2000.",
+    "files": [],
+    "correctAlternative": "A",
+    "alternativesIntroduction": "Ao apresentar uma situação de tensão em família, o narrador destila, nesse fragmento, uma percepção das relações humanas e sociais demarcada pelo",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Predomínio dos estigmas de classe e de raça sobre a intimidade da convivência.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "Discurso da manutenção de uma ética doméstica contra a subversão dos valores.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Desejo de superação do passado de escassez em prol do presente de abastança.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Sentimento de insubordinação à autoridade representada pela matriarca da família.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Rancor com a ingratidão e a hipocrisia geradas pelas mudanças nas regras da casa.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  },
+  "11": {
+    "title": "Questão 39 - ENEM 2017",
+    "index": 39,
+    "discipline": "linguagens",
+    "language": null,
+    "year": 2017,
+    "context": "Zé Araújo começou a cantar num tom triste, dizendo aos curiosos que começaram a chegar que uma mulher tinha se ajoelhado aos pés da santa cruz e jurado em nome de Jesus um grande  amor, mas jurou e não cumpriu,  fingiu e me enganou, pra mim você mentiu, pra Deus você pecou, o coração tem razões que a própria razão desconhece, faz promessas e juras, depois esquece.  \nO caboclo estava triste e inspirado. Depois dessa canção que arrepiou os cabelos da Neusa, emendou com uma valsa mais arretada ainda, cheia de palavras difíceis, mas bonita que só a gota serena. Era a história de uma boneca encantadora vista numa vitrine de cristal sobre o soberbo pedestal. Zé Araújo fechava os olhos e soltava a voz:\n\n  \nSeus cabelos tinham a cor/ Do sol a irradiar/  \nFulvos raios de amor./ Seus olhos eram circúnvagos/  \nDo romantismo azul dos lagos/ Mãos liriais, uns braços divinais,/\n\nUm corpo alvo sem par/ E os pésmuito pequenos./Enfim eu vi nesta boneca/ Uma perfeita Vênus.\n\nCASTRO, N. L. **As pelejas de Ojuara o homem que desafiou o diabo.** São Paulo: Arx, 2006 (adaptado).",
+    "files": [],
+    "correctAlternative": "A",
+    "alternativesIntroduction": "O comentário do narrador do romance “[…] emendou com uma valsa mais arretada ainda, cheia de palavras difíceis, mas bonita que só a gota serena” relaciona-se ao fato de que essa valsa é representativa de uma variedade linguística",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Detentora de grande prestígio social.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "Específica da modalidade oral da língua.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Previsível para o contexto social da narrativa.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Constituída de construções sintáticas complexas.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Valorizadora do conteúdo em detrimento da forma.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  },
+  "12": {
+    "title": "Questão 18 - ENEM 2017",
+    "index": 18,
+    "discipline": "linguagens",
+    "language": null,
+    "year": 2017,
+    "context": "**O mundo revivido**\n\nSobre esta casa e’as árvores que o tempo  \nesqueceu de levar. Sobre o curral  \nde pedra e paz e de outras vacas tristes  \nchorando a lua e a noite sem bezerros.\n\nSobre a parede larga deste açude  \nonde outras cobras verdes se arrastavam,  \ne pondo o sol nos seus olhos parados  \niam colhendo sua safra de sapos.\n\nSob as constelações do sul que a noite  \narmava e desarmava: as Três Marias,  \no Cruzeiro distante e o Sete-Estrelo.\n\nSobre este mundo revivido em vão,  \na lembrança de primos, de cavalos,  \nde silêncio perdido para sempre.\n\nDOBAL, H. **A província deserta** . Rio de Janeiro: Artenova, 1974.",
+    "files": [],
+    "correctAlternative": "A",
+    "alternativesIntroduction": "No processo de reconstituição do tempo vivido, o eu lírico projeta um conjunto de imagens cujo lirismo se fundamenta no",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Inventário das memórias evocadas afetivamente.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "Reflexo da saudade no desejo de voltar à infância.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Sentimento de inadequação com o presente vivido.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Ressentimento com as perdas materiais e humanas.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Lapso no fluxo temporal dos eventos trazidos à cena.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  },
+  "13": {
+    "title": "Questão 37 - ENEM 2017",
+    "index": 37,
+    "discipline": "linguagens",
+    "language": null,
+    "year": 2017,
+    "context": "![](https://enem.dev/2017/questions/37/4d4a90d7-9743-432c-8710-dacb137ea2d5.png)",
+    "files": [
+      "https://enem.dev/2017/questions/37/4d4a90d7-9743-432c-8710-dacb137ea2d5.png"
+    ],
+    "correctAlternative": "A",
+    "alternativesIntroduction": "A instalação Dengo transformou a sala do MAM-SP em um ambiente singular, explorando como principal característica artística a",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Participação do público na interação lúdica com a obra.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "Distribuição de obstáculos no espaço da exposição.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Representação simbólica de objetos oníricos.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Interpretação subjetiva da lei da gravidade",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Valorização de técnicas de artesanato.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  },
+  "14": {
+    "title": "Questão 43 - ENEM 2017",
+    "index": 43,
+    "discipline": "linguagens",
+    "language": null,
+    "year": 2017,
+    "context": "![](https://enem.dev/2017/questions/43/b01a5852-707f-4dad-9d93-63376b294f3e.png)\n\n**TEXTO II**  \n**Speto**  \nPaulo César Silva, mais conhecido como Speto, é um grafiteiro paulista envolvido com o _skate_ e a música. O fortalecimento de sua arte ocorreu, em 1999, pela oportunidade de ver de perto as referências que trazia há tempos, ao passar por diversas cidades do Norte do Brasil em uma turnê com a banda O Rappa\n\nRevista Zupi, n. 19, 2010",
+    "files": [
+      "https://enem.dev/2017/questions/43/b01a5852-707f-4dad-9d93-63376b294f3e.png"
+    ],
+    "correctAlternative": "D",
+    "alternativesIntroduction": "O grafite do artista paulista Speto, exposto no Museu Afro Brasil, revela elementos da cultura brasileira reconhecidos",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Na influência da expressão abstrata.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Na representação de lendas nacionais.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Na inspiração das composições musicais.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Nos traços marcados pela xilogravura nordestina.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "Nos usos característicos de grafismos dos skates.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  },
+  "15": {
+    "title": "Questão 7 - ENEM 2017",
+    "index": 7,
+    "discipline": "linguagens",
+    "language": null,
+    "year": 2017,
+    "context": "Garcia tinha-se chegado ao cadáver, levantara o lenço e contemplara por alguns instantes as feições  \ndefuntas. Depois, como se a morte espiritualizasse tudo, inclinou-se e beijou-a na testa. Foi nesse momento que Fortunato chegou à porta. Estacou assombrado; não podia ser o beijo da amizade, podia ser o epílogo de um livro adúltero \\[…\\].  \nEntretanto, Garcia inclinou-se ainda para beijar outra vez o cadáver, mas então não pôde mais. O beijo rebentou em soluços, e os olhos não puderam conter as lágrimas, que vieram em borbotões, lágrimas de amor calado, e irremediável desespero. Fortunato, à porta, onde ficara, saboreou tranquilo essa explosão de dor moral que foi longa, muito longa, deliciosamente longa.\n\nASSIS, M. A causa secreta, Disponível em: www.dominimopublico.gov.br  \nAcesso em: 9 out. 2015.",
+    "files": [],
+    "correctAlternative": "D",
+    "alternativesIntroduction": "No fragmento, o narrador adota um ponto de vista que acompanha a perspectiva de Fortunato. O que singulariza esse procedimento narrativo é o registro do(a)",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Indignação face à suspeita do adultério da esposa.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Tristeza compartilhada pela perda da mulher amada.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Espanto diante da demonstração de afeto de Garcia.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Prazer da personagem em relação ao sofrimento alheio.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "Superação do ciúme pela comoção decorrente da morte.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  },
+  "16": {
+    "title": "Questão 14 - ENEM 2017",
+    "index": 14,
+    "discipline": "linguagens",
+    "language": null,
+    "year": 2017,
+    "context": "PROPAGANDA – O exame dos textos e mensagens de Propaganda revela que ele apresenta posições parciais, que refletem apenas o pensamento de uma minoria, como se exprimissem, em vez disso a convicção de uma população; trata-se, no fundo, de convencer o ouvinte ou leitor de que, em termos de opinião, está fora do caminho certo, e de induzi-lo a aderir às teses que lhes são apresentadas, por um mecanismo bem conhecido da psicologia social, o do conformismo induzido por pressões do grupo sobre o indivíduo isolado.\n\nBOBBIP, N.; MATTEUCCI, N.; PASQUINO, G. **Dicionário de política.** Brasília: UnB, 1998 (adaptado).",
+    "files": [],
+    "correctAlternative": "C",
+    "alternativesIntroduction": "De acordo com o texto, as estratégias argumentativas e o uso da linguagem na produção da propaganda favorecem a",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Reflexão da sociedade sobre os produtos anunciados.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Difusão do pensamento e das preferências das grandes massas.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Imposição das ideias e posições de grupos específicos.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "Decisão consciente do consumidor a respeito de sua compra.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Identificação dos interesses do responsável pelo produto divulgado.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  },
+  "17": {
+    "title": "Questão 17 - ENEM 2017",
+    "index": 17,
+    "discipline": "linguagens",
+    "language": null,
+    "year": 2017,
+    "context": "**Textos e hipertextos: procurando o equilíbrio**\n\nHá um medo por parte dos pais e de alguns professores de as crianças desaprenderem quando navegam, medo de elas viciarem, de obterem informação não confiável, de elas se isolarem do mundo real, como se o computador fosse um agente do mal, um vilão. Esse medo é reforçado pela mídia, que costuma apresentar o computador como um agente negativo na aprendizagem e na socialização dos usuários. Nós sabemos que ninguém corre o risco de desaprender quando navega, seja em ambientes digitais ou em materiais impressos, mas é preciso ver o que se está aprendendo e algumas vezes interferir nesse processo a fim de otimizar ou orientar a aprendizagem, mostrando aos usuários outros temas, outros caminhos, outras possibilidades diferentes daquelas que eles encontraram sozinhos ou daquelas que eles costumam usar. É preciso, algumas vezes, negociar o uso para que ele não seja exclusivo, uma vez que há outros meios de comunicação, outros meios de informação e outras alternativas de lazer. É uma questão de equilibrar e não de culpar.\n\nCOSCARELLI, C. V. **Linguagem em (Dis)curso**, n. 3, set.-dez. 2009.",
+    "files": [],
+    "correctAlternative": "D",
+    "alternativesIntroduction": "A autora incentiva o uso da internet pelos estudantes, ponderando sobre a necessidade de orientação a esse uso, pois essa tecnologia",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Está repleta de informações confiáveis que constituem fonte única para a aprendizagem dos alunos.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Exige dos pais e professores que proíbam seu uso abusivo para evitar que se torne um vício.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Tende a se tomar um agente negativo na aprendizagem e na socialização de crianças e jovens.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Possibilita maior ampliação do conhecimento de mundo quando a aprendizagem é direcionada.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "Leva ao isolamento do mundo real e ao uso exclusivo do computador se a navegação for desmedida.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  },
+  "18": {
+    "title": "Questão 15 - ENEM 2017",
+    "index": 15,
+    "discipline": "linguagens",
+    "language": null,
+    "year": 2017,
+    "context": "**Sítio Gerimum**\n\nEste é o meu lugar (…)\n\nMeu Gerimum é com g\n\nVocê pode ter estranhado\n\nGerimum em abundância\n\nAqui era plantado\n\nE com a letra g\n\nMeu lugar foi registrado.\n\nOLIVEIRA, H. D. **Língua Portuguesa,** n. 88, fev. 2013 (fragmento)",
+    "files": [],
+    "correctAlternative": "E",
+    "alternativesIntroduction": "Nos versos de um menino de 12 anos, o emprego da palavra “Gerimum”grafada com a letra “g” tem por objetivo",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Valorizar usos informais caracterizadores da norma nacional.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Confirmar o uso da norma-padrão em contexto da linguagem poética.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Enfatizar um processo recorrente na transformação da língua portuguesa.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Registrar a diversidade étnica e linguística presente no território brasileiro.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Reafirmar discursivamente a forte relação do falante com seu lugar de origem.",
+        "file": null,
+        "isCorrect": true
+      }
+    ]
+  },
+  "19": {
+    "title": "Questão 22 - ENEM 2017",
+    "index": 22,
+    "discipline": "linguagens",
+    "language": null,
+    "year": 2017,
+    "context": "**TEXTO I**\n\nA língua ticuna é o idioma mais falado entre os indígenas brasileiros. De acordo com o pesquisador Aryon Rodrigues, há 40 mil índios que falam o idioma. A maioria mora ao longo do Rio Solimões, no Alto Amazonas. É a maior nação indígena do Brasil, sendo também encontrada no Peru e na Colômbia. Os ticunas falam uma língua considerada isolada, que não mantém semelhança com nenhuma outra língua indígena e apresenta complexidades em sua fonologia e sintaxe.\n\nSua característica principal é o uso de diferentes alturas na voz.\n\nO uso intensivo da língua não chega a ser ameaçado pela proximidade de cidades ou mesmo pela convivência com falantes de outras línguas no interior da própria área ticuna: nas aldeias, esses outros falantes são minoritários e acabam por se submeter à realidade ticuna, razão pela qual, talvez, não representem uma ameaça linguística.\n\nLingua Portuguesa, n. 52, few 2010 (adaptado)\n\n**TEXTO II**\n\n**Riqueza da língua**\n\n“O inglês está destinado a ser uma língua mundial em sentido mais amplo do que o latim foi na era passada e o francês é na presente”, dizia o presidente americano John Adams no século XVIII. A profecia se cumpriu o inglês é hoje a língua franca da globalização. No extremo oposto da economia linguística mundial, estão as línguas de pequenas comunidades declinantes. Calcula-se que hoje se falem de 6 000 a 7 000 línguas no mundo todo. Quase metade delas deve desaparecer nos próximos 100 anos, A última edição do Ethnologue – o mais abrangente estudo sobre as línguas mundiais -, de 2005, listava 516 línguas em risco de extinção.\n\nVeja, n. 36, set 2007 (adaptado).",
+    "files": [],
+    "correctAlternative": "D",
+    "alternativesIntroduction": "Os textos tratam de línguas de culturas completamente diferentes, cujas realidades se aproximam em função do(a)",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Semelhança no modo de expansão.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Preferência de uso na modalidade falada.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Modo de organização das regras sintáticas.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Predomínio em relação às outras línguas de contato.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "Fato de motivarem o desaparecimento de línguas minoritárias.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  }
+}

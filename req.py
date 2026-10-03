@@ -1,8 +1,8 @@
 import requests
 from pprint import pprint
 from debug import debug
-url="https://api.enem.dev/v1/exams/"
-
+#url="https://api.enem.dev/v1/exams/"
+url="http://localhost:3000/v1/exams/"
 
 def get_exam_by_year(year,args=[]):
   payload=url+year
@@ -36,4 +36,5 @@ def get_exam_question_by_index(year,index):
   debug(payload, __file__)
   req=requests.get(payload)
   pprint(req.content.decode(), compact=True)
+  return req.json()
 #get_exam_question_by_index("2010", "1")

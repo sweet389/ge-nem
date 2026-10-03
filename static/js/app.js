@@ -39,6 +39,89 @@ function setupGeneratorForm() {
 }
 
 /* ---------- Simulado ---------- */
+async function loadExam(url) {
+    const form = document.querySelector('#exam-form');
+    const area = document.querySelector('#question-area');
+    const grid = document.querySelector('#question-grid');
+    const title = document.querySelector('#exam-title');
+    const meta = document.querySelector('#exam-meta');
+
+    try {
+        const response = await fetch(url, { headers: { Accept: 'application/json' } });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        const questions = Object.values(data);
+
+        title.textContent = 'Simulado ENEM';
+        meta.textContent = 'ENEM · Questões selecionadas';
+        questions.forEach((question, index) => {
+            const panel = document.createElement('article');
+            panel.className = `question-card${index ? ' hidden' : ''}`;
+            panel.dataset.questionPanel = index;
+
+            const questionMeta = document.createElement('div');
+            questionMeta.className = 'question-meta';
+            const number = document.createElement('span');
+            number.textContent = `Questão ${index + 1}`;
+            const discipline = document.createElement('span');
+            discipline.textContent = question.discipline || 'Área';
+            questionMeta.append(number, discipline);
+            panel.append(questionMeta);
+
+            const text = document.createElement('div');
+            text.className = 'question-text';
+            text.textContent = [question.context, question.alternativesIntroduction]
+                .filter(Boolean)
+                .join('\n\n') || question.title || '';
+            panel.append(text);
+
+            const files = Array.isArray(question.files) ? question.files : [];
+            files.forEach(file => {
+                const source = typeof file === 'string' ? file : file?.url;
+                if (!source) return;
+                const image = document.createElement('img');
+                image.className = 'question-image';
+                image.src = source;
+                image.alt = 'Imagem da questão';
+                panel.append(image);
+            });
+
+            const alternatives = document.createElement('div');
+            alternatives.className = 'alternatives';
+            (question.alternatives || []).forEach(alternative => {
+                const label = document.createElement('label');
+                label.className = 'alternative';
+                const input = document.createElement('input');
+                input.type = 'radio';
+                input.name = `questao_${question.index ?? index}`;
+                input.value = alternative.letter;
+                const letter = document.createElement('span');
+                letter.className = 'letter';
+                letter.textContent = alternative.letter;
+                const answer = document.createElement('span');
+                answer.textContent = alternative.text || '';
+                label.append(input, letter, answer);
+                alternatives.append(label);
+            });
+            panel.append(alternatives);
+            area.insertBefore(panel, area.querySelector('.redacao-hint'));
+
+            const button = document.createElement('button');
+            button.type = 'button';
+            button.className = `question-number${index ? '' : ' active'}`;
+            button.dataset.question = index;
+            button.textContent = index + 1;
+            grid.append(button);
+        });
+        if (!questions.length) throw new Error('O simulado não possui questões');
+        setupExam();
+    } catch (error) {
+        title.textContent = 'Não foi possível carregar o simulado';
+        meta.textContent = '';
+        console.error('Erro ao carregar o simulado:', error);
+    }
+}
+
 function setupExam() {
     const form = document.querySelector('#exam-form');
     const panels = [...document.querySelectorAll('[data-question-panel]')];

@@ -12,6 +12,7 @@ GET  /                 dashboard
 GET  /simulado/gerar   gerar_simulado   (exibe o formulário)
 POST /simulado/gerar   gerar_simulado   (recebe o formulário)
 GET  /simulado/<id>    simulado
+GET  /api/simulados/<id>  JSON do simulado carregado pelo JavaScript
 POST /simulado/finalizar  finalizar_simulado
 GET  /resultado/<id>   resultado
 
@@ -24,7 +25,7 @@ GET  /resultado/<id>   resultado
 **gerar_simulado.html** — nenhuma. Campos enviados no POST:
 `ano`, `dia` (1|2), `modo` (estatisticas|limite), e só os do dia escolhido: `linguagens`, `humanas` | `natureza`, `matematica`
 
-**simulado.html** — `prova`: `{id, ano, dia, titulo, redacao, questoes:[{id, materia, enunciado, imagem, imagem_alt, alternativas:[{letra, texto, imagem}]}]}` e `redacao_url`
+**simulado.html** — recebe `simulado_id` e `redacao_url`. O JavaScript busca as questões em `/api/simulados/<id>` e monta a prova na tela a partir do JSON gerado pelo backend.
 POST enviado: `simulado_id`, `tempo_segundos`, `questao_<id>=<letra>` (questões em branco não são enviadas)
 
 **resultado.html** — `resultado`: `{acertos, erros, total, percentual, materias:[{nome, acertos, erros, total, percentual}]}`
