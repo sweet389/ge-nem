@@ -1,8 +1,10 @@
 import requests
 from pprint import pprint
 from debug import debug
-#url="https://api.enem.dev/v1/exams/"
-url="http://localhost:3000/v1/exams/"
+import os
+from dotenv import load_dotenv
+load_dotenv()
+url=os.getenv('api-url')
 
 def get_exam_by_year(year,args=[]):
   payload=url+year
