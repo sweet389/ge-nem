@@ -1,0 +1,88 @@
+{
+  "0": {
+    "title": "Questão 54 - ENEM 2023",
+    "index": 54,
+    "discipline": "ciencias-humanas",
+    "language": null,
+    "year": 2023,
+    "context": null,
+    "files": [],
+    "correctAlternative": "A",
+    "alternativesIntroduction": "Eu poderia concluir que a raiva é um pensamento, que estar com raiva é pensar que alguém é detestável, e que esse pensamento, como todos os outros — assim como Descartes o mostrou —, não poderia residir em nenhum fragmento de matéria. A raiva seria, portanto, espírito. Porém, quando me volto para minha própria experiência da raiva, devo confessar que ela não estava fora do meu corpo, mas inexplicavelmente nele.\nMERLEAU-PONTY, M. Quinta conversa: o homem visto de fora. São Paulo: Martins Fontes, 1948 (adaptado).\nNo que se refere ao problema do corpo, a filosofia cartesiana apresenta-se como contraponto ao entendimento expresso no texto por",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Apresentar uma visão dualista.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "Confirmar uma tese naturalista.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Demonstrar uma premissa relativa.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Sustentar um argumento idealista.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Defender uma posição intencionalista.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  },
+  "1": {
+    "title": "Questão 43 - ENEM 2023",
+    "index": 43,
+    "discipline": "linguagens",
+    "language": null,
+    "year": 2023,
+    "context": null,
+    "files": [],
+    "correctAlternative": "A",
+    "alternativesIntroduction": "Mestre e companheiro, disse eu que nos íamos despedir. Mas disse mal. A morte não extingue: transforma; não aniquila; renova; não divorcia: aproxima. Um dia supuseste “morta e separada” a consorte dos teus sonhos e das tuas agonias, que te soubera “pôr um undo inteiro no recanto” do teu ninho; e, todavia, nunca ela te esteve mais presente, no íntimo de ti mesmo e na expressão do teu canto, no fundo do teu ser e na face de tuas ações. Esses catorze versos inimitáveis, em que o enlevo dos teus discípulos resume o valor de toda uma literatura, eram a aliança de ouro do teu segundo noivado, um anel de outras núpcias, para a vida nova do teu renascimento e da tua glorificação, com a sócia sem nódoa dos teus anos e de mocidade e madureza, da florescência e frutificação de tua alma. Para os eleitos do mundo das ideias a miséria está em decadência, e não na morte. A nobreza de uma nos preserva das ruínas de outra. Quando eles atravessavam essa passagem do invisível, que os conduz à região da verdade sem mescla, então é que entramos a sentir o começo do seu reino, o reino dos mortos sobre os vivos.\nBARBOSA, R. O adeus da Academia a Machado de Assis. Rio de Janeiro: Agir, 1962.\nEsse é um trecho do discurso de Rui Barbosa na Academia Brasileira de Letras em homenagem a Machado de Assis por ocasião de sua morte. Uma das características desse discurso de homenagem é a presença de",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Metáforas relacionadas à trajetória pessoal e criadora do homenageado.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "Recursos fonológicos empregados para a valorização do ritmo do texto.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Frases curtas e diretas no relato de vida e da morte do homenageado.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Contraposição de ideias presentes na obra do homenageado.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Seleção vocabular representativa do sentimento de nostalgia.",
+        "file": null,
+        "isCorrect": false
+      }
+    ]
+  }
+}

@@ -1,8 +1,8 @@
 import requests
 from pprint import pprint
 from debug import debug
-import os
 from dotenv import load_dotenv
+import os
 load_dotenv()
 url=os.getenv('api-url')
 
