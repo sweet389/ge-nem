@@ -43,8 +43,79 @@
     </div>
 </section>
 
+<section class="section">
+    <div class="section-heading">
+        <div>
+            <p class="eyebrow">REVISÃO</p>
+            <h2>Onde você errou</h2>
+            <p class="muted small">Confira cada questão, o que você marcou e a alternativa correta.</p>
+        </div>
+        <div class="filter-actions">
+            <button type="button" class="button button-secondary" data-review-filter="erros" aria-pressed="false">Só erros</button>
+            <button type="button" class="button button-secondary" data-review-filter="todas" aria-pressed="true">Todas</button>
+        </div>
+    </div>
+
+    <div class="review-list" id="review-list">
+        {% for q in resultado.revisao %}
+        <article class="review-card {{ 'ok' if q.acertou else 'err' }}" data-correct="{{ 'true' if q.acertou else 'false' }}">
+            <header class="review-head">
+                <div>
+                    <span class="review-number">Questão {{ q.numero }}</span>
+                    <span class="review-discipline">{{ q.materia }}</span>
+                </div>
+                <span class="review-badge {{ 'ok' if q.acertou else 'err' }}">
+                    {{ 'Acertou' if q.acertou else 'Errou' }}
+                </span>
+            </header>
+
+            {% if q.context %}
+            <div class="review-context">{{ q.context }}</div>
+            {% endif %}
+            {% if q.imagem %}
+            <img class="question-image" src="{{ q.imagem }}" alt="Imagem da questão">
+            {% endif %}
+            {% if q.enunciado %}
+            <p class="review-prompt">{{ q.enunciado }}</p>
+            {% endif %}
+
+            <div class="review-answers">
+                <p>
+                    <span class="label">Sua resposta</span>
+                    {% if q.respondido %}
+                    <span class="pill {{ 'ok' if q.acertou else 'err' }}">{{ q.respondido }}</span>
+                    <span class="muted small">{{ q.respondido_texto }}</span>
+                    {% else %}
+                    <span class="pill blank">Em branco</span>
+                    {% endif %}
+                </p>
+                <p>
+                    <span class="label">Resposta correta</span>
+                    <span class="pill ok">{{ q.correta }}</span>
+                    <span class="muted small">{{ q.correta_texto }}</span>
+                </p>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+
 <div class="form-actions">
     <a class="button button-secondary" href="{{ url_for('dashboard') }}">Voltar ao início</a>
     <a class="button button-primary" href="{{ url_for('gerar_simulado') }}">Novo simulado <span>→</span></a>
 </div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.querySelectorAll('[data-review-filter]').forEach(button => {
+        button.addEventListener('click', () => {
+            const onlyErrors = button.dataset.reviewFilter === 'erros';
+            document.querySelectorAll('#review-list .review-card').forEach(card => {
+                card.hidden = onlyErrors && card.dataset.correct === 'true';
+            });
+            document.querySelectorAll('[data-review-filter]').forEach(b => b.setAttribute('aria-pressed', String(b === button)));
+        });
+    });
+</script>
 {% endblock %}

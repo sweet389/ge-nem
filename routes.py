@@ -43,12 +43,23 @@ def simulado_json(id):
 
 @app.post("/simulado/finalizar")
 def finalizar_simulado():
-    # TODO: corrigir e salvar o resultado
     sim_id = request.form.get("simulado_id")
+    if not sim_id:
+        return "Simulado não informado", 400
+    # monta as respostas: cada questão vem no formulário como "questao_<index>" -> letra
+    respostas = {
+        key[len("questao_"):]: value
+        for key, value in request.form.items()
+        if key.startswith("questao_")
+    }
+    IO.save_answers(sim_id, respostas)
     return redirect(url_for("resultado", id=sim_id))
 
 
 @app.get("/resultado/<id>")
 def resultado(id):
-    # TODO: buscar o resultado
-    return render_template("resultado.html", resultado={})
+    try:
+        resultado = IO.build_result(id)
+    except FileNotFoundError:
+        return "Simulado não encontrado", 404
+    return render_template("resultado.html", resultado=resultado)

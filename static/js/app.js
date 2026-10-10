@@ -133,6 +133,7 @@ function setupExam() {
     const finish = document.querySelector('#finish-exam');
     const timer = document.querySelector('#timer');
     const elapsedInput = document.querySelector('#elapsed');
+    const resultUrl = form.dataset.resultUrl;
 
     let current = 0;
     let submitting = false;
@@ -187,6 +188,11 @@ function setupExam() {
             return;
         }
         submitting = true;
+        e.preventDefault();
+        const payload = new FormData(form);
+        fetch(form.action, { method: 'POST', body: payload, redirect: 'manual' })
+            .catch(error => console.error('Erro ao finalizar o simulado:', error))
+            .finally(() => { window.location.href = resultUrl; });
     });
 
     window.addEventListener('beforeunload', e => {

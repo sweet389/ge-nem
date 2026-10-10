@@ -2,7 +2,7 @@
 {% block title %}Simulado — ENEM{% endblock %}
 
 {% block content %}
-<form method="POST" action="{{ url_for('finalizar_simulado') }}" id="exam-form" data-json-url="{{ url_for('simulado_json', id=simulado_id) }}">
+<form method="POST" action="{{ url_for('finalizar_simulado') }}" id="exam-form" data-json-url="{{ url_for('simulado_json', id=simulado_id) }}" data-result-url="{{ url_for('resultado', id=simulado_id) }}">
     {# <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"> (se usar Flask-WTF) #}
     <input type="hidden" name="simulado_id" value="{{ simulado_id }}">
     <input type="hidden" name="tempo_segundos" id="elapsed" value="0">
