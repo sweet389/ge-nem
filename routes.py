@@ -1,7 +1,15 @@
 from app import app
 from flask import jsonify, render_template, request, redirect, url_for
 import IO
+import status
 from trator import get_options
+from datetime import datetime
+
+def days_left():
+    data=datetime.today()
+    data=str(data).split(" ")[0].split("-")[-1]
+    return (31-int(data))+8
+
 
 @app.get("/")
 def dashboard():
@@ -9,7 +17,7 @@ def dashboard():
     return render_template(
         "dashboard.html",
         subjects=[], last_attempt=None,
-        days_to_enem=0, enem_year=2026, enem_dates_label="",
+        days_to_enem=days_left(), enem_year=2026, enem_dates_label="",
         redacao_url="https://coredacao.com",
     )
 
@@ -60,6 +68,7 @@ def finalizar_simulado():
 def resultado(id):
     try:
         resultado = IO.build_result(id)
+        status.gerar_status(resultado)
     except FileNotFoundError:
         return "Simulado não encontrado", 404
     return render_template("resultado.html", resultado=resultado)

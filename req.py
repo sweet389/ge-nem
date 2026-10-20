@@ -11,7 +11,11 @@ def get_exam_by_year(year,args=[]):
   for param in args:
     payload+=f"{param}/"
   debug(payload, __file__)
-  req=requests.get(payload)
+  try:
+    req=requests.get(payload, timeout=100)
+  except requests.exceptions.Timeout:
+    print("Timed out")
+    req=requests.get(payload, timeout=100)
   #pprint(req.content.decode(), compact=True)
   return req.json()
 #get_exam_by_year("2010")

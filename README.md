@@ -33,3 +33,14 @@ POST enviado: `simulado_id`, `tempo_segundos`, `questao_<id>=<letra>` (questões
 ## Cuidados
 - `q.enunciado|safe` assume HTML confiável; sanitize no backend se necessário
 - Com Flask-WTF, descomente a linha `csrf_token` nos formulários
+
+
+
+# Objetivos
+
+- banco de dados para usuarios e suas estatisticas
+- geracao de simulados com base em estatisticas
+- ajuda da IA na correcao das provas
+- historico das provas por usuario
+- adicionar "marcar para rever" nas questoes
+- Mais tarde: adicionar outros institutos alem do ENEM
